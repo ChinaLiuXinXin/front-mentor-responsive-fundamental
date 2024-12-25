@@ -27,6 +27,7 @@ body {
             padding: 25px;
             #perfume {
                 letter-spacing: 5px;
+                font-size: 12px;
             }
             #details {
                 font-size: 14px;
@@ -43,6 +44,9 @@ body {
                     color: $Darkcyan;
                     margin-right: 20px;
                 }
+                > del {
+                    font-size: 12px;
+                }
             }
             #button {
                 width: 100%;
@@ -53,6 +57,9 @@ body {
                 border: none;
                 border-radius: 10px;
                 font-family: "Montserrat", serif;
+                img {
+                    margin-right: 7px;
+                }
             }
             .gray {
                 font-family: "Montserrat", serif;
