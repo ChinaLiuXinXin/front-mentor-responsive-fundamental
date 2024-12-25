@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+}
+
+#container {
+  height: 100vh;
+  background-color: #f2ebe3;
+  padding-top: 20px;
+}
+
+#container #product {
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#container #product #goods-mobile-img {
+  width: 100%;
+}
+
+#container #product #goods-pc-img {
+  display: none;
+}
+
+#container #product #content {
+  padding: 25px;
+}
+
+#container #product #content #perfume {
+  letter-spacing: 5px;
+}
+
+#container #product #content #details {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#container #product #content #perfume-name {
+  margin-top: 10px;
+}
+
+#container #product #content #price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -10px;
+}
+
+#container #product #content #price > h1 {
+  color: #3c8067;
+  margin-right: 20px;
+}
+
+#container #product #content #button {
+  width: 100%;
+  height: 50px;
+  background-color: #3c8067;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  font-family: "Montserrat", serif;
+}
+
+#container #product #content .gray {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #6c7289;
+}
+
+#container #product #content h1 {
+  font-family: "Fraunces", serif;
+}
+
+@media (min-width: 376px) {
+  #container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 409px;
+    padding-right: 409px;
+  }
+  #container #goods-mobile-img {
+    display: none;
+  }
+  #container #goods-pc-img {
+    display: block !important;
+    width: 100%;
+    height: 100%;
+  }
+  #container #product {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+  #container #content {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #container #content #details {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
